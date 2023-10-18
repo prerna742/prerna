@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+nav{
+  background-color:aliceblue;
+}
+ul{
+  margin-left: 700px;
+  margin-top: 5px;
+  
+}
+li{
+ 
+ float: left;
+ margin: 20px;
+}
+.main{
+  height: 50px;
+  background-color: skyblue;
+  
+  border: 1px solid black;
+}
+.head{
+  height: 680px;
+  border: 1px solid black;
+}
+img:hover{
+  transform: translate(-600px);
+}
+
+img{
+  height: 200px;
+  width: 200px;
+  margin-left: 1200px;
+  border-radius: 50%;
+  transition: width 2s, height 2s, transform 10s;
+ 
+}
+.body{
+  margin: 0px;
+  margin-left: 100px;
+  margin-top: 20px;
+  text-anchor: middle;
+}
